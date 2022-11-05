@@ -8,11 +8,11 @@ import '@vuepic/vue-datepicker/dist/main.css'
     date: new Date()
   })
   const { data, pending } = await useAsyncData('weather', () => getWeatherByCityAndDate(state.cityIndex, state.date))
-  const updateCity = (cityIndex) => {
+  const updateCity = (cityIndex: number): void => {
     state.cityIndex = cityIndex
     refreshNuxtData('weather')
   }
-  const updateDate = (date) => {
+  const updateDate = (date: Date): void => {
     state.date = date
     refreshNuxtData('weather')
   }

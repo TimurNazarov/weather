@@ -34,6 +34,7 @@ export const getWeatherByCityAndDate = async (cityIndex: number, date: Date): Pr
     })
     return parsedData
   } catch (err) {
-    console.log(err)
+    console.log(err.response)
+    alert(err.data.reason)
   }
 }

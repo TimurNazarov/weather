@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+  import { getWeatherIcon } from '@/composables/useUtil'
   import type WeatherDay from '@/types/WeatherDay'
   
   defineProps({
@@ -16,7 +17,7 @@
         <div
           class="flex items-center justify-center w-100px text-bold text-28px"
         >
-        {{ day.weathercode }}
+        <img :src="getWeatherIcon(day.weathercode)" alt="">
         </div>
         <div
           class="flex flex-col"
