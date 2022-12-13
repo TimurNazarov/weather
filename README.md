@@ -1,5 +1,7 @@
 # Deployed at https://weather-rosy.vercel.app/
 
+#by assignment - https://omure.notion.site/VUE-Nuxt-Typescript-Initial-Test-Weather-app-12c0fe520a604ac187ccfa11b9bd2f2f
+
 # Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
