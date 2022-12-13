@@ -1,6 +1,6 @@
-# Deployed at https://user-creator-pi.vercel.app/
+# Deployed at https://weather-rosy.vercel.app/
 
-#by assignment - https://accurate-fuchsia-ef3.notion.site/Aptitude-test-fb84ddc4a2974068a1c267298eecc816
+#by assignment - https://omure.notion.site/VUE-Nuxt-Typescript-Initial-Test-Weather-app-12c0fe520a604ac187ccfa11b9bd2f2f
 
 # Nuxt 3 Minimal Starter
 
